@@ -1,0 +1,130 @@
+html, body {
+    height:100%;
+}
+
+body {
+    padding-top: 0px;
+}
+
+.section {
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	position: relative;
+	margin: 0 auto;
+	padding: 0 0 0 0;
+}
+
+/* DEBUG CODE */
+/*
+.container {
+    border:1px solid red;
+}
+
+.section {
+    border:1px solid green;
+}
+
+.landing {
+    border:1px solid blue;
+}
+*/
+
+.container {
+    height: 100%;
+}
+
+.s1 {
+    margin-top: 0px; /*Because there is some problem with javascript and SMIT and bootstrap*/    
+    background: url(../img/DSC_0846.jpg);
+    background-size: cover;
+}
+
+.inner {
+    opacity:0.7;
+    background-color:#000;
+    height: 100%;
+    width:100%;
+}
+
+.navbar-nav > li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.active {
+    background-color: #080808;
+}
+
+.landing {
+    text-align:center;
+    position: relative;
+    top: 20%;
+    left:35%;
+}
+
+.heading {
+    text-align:center;
+}
+
+.s1 {
+	color:#fff;
+}
+
+
+.s2 {
+	background: #fff;
+    color: #000;
+}
+.s2 a {
+	color: #fff;
+}
+
+.s3 {
+	background: #1b83b3;
+    color: #fff;    
+}
+
+.s4 {
+	background: #660066;
+    color: #fff;
+}
+
+.s5 {
+	background: #e9e9e9;
+	color: #fff;
+}
+
+.content {
+    margin:0 auto;padding: 20px 100px
+}
+
+.currentlyLearning {
+    text-align:center; height:230px; display:block;float:left; margin:auto;
+}
+
+p, p-style {
+    font-size: 0.9em;
+}
+
+h4 {
+
+}
+
+h5 {
+    font-weight:bold;
+}
+
+.navbar-right {
+    margin-right: 0px;
+}
+
+.name {
+    font-family: Lato;
+    font-weight: Thin 100;
+}
+
+li .active {
+    background-color: #080808;
+    color: #fff;
+}
