@@ -157,3 +157,8 @@ a, a:active, .active, li .active, a:visited, a:link, a:hover, ul li, a.active, l
 .navbar-inverse .navbar-brand {
     color: #fff;
 }
+
+/* Fix for ad-block plus issue with FA icons */
+.fa-mylinkin-square:before {
+  content: "\f08c";
+}
